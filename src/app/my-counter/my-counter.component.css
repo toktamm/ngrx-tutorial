@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Square+Peg&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.counter {
+    zoom: 1.5;
+    margin: 25px;
+    margin-top: 200px;
+    color: royalblue;
+}
+
+.button-container {}
+
+.button {
+    margin-right: 10px;
+    zoom: 1.5;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.button-increment {
+    background-color: chartreuse;
+}
+
+.button-decrement {
+    background-color: deeppink;
+}
+
+.button-reset {
+    background-color: yellow;
+}
