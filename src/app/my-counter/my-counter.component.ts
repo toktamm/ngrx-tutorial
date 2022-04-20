@@ -12,6 +12,7 @@ export class MyCounterComponent {
 
   constructor(private store: Store<{ count: number }>) {
     // TODO: Connect 'this.count$' stream to the current store 'count' state
+    this.count$ = store.select('count');
   }
 
   increment() {
