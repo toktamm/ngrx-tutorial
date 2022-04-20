@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Square+Peg&display=swap");
-* {
+.container {
     font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 .counter {
     zoom: 1.5;
     margin: 25px;
-    margin-top: 200px;
     color: royalblue;
 }
-
-.button-container {}
 
 .button {
     margin-right: 10px;
